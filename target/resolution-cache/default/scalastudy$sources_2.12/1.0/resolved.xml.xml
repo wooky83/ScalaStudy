@@ -4,7 +4,7 @@
 		module="scalastudy$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170405151037"
+		publication="20170413165726"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

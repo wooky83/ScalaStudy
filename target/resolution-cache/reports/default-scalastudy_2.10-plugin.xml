@@ -3,11 +3,11 @@
 <ivy-report version="1.0">
 	<info
 		organisation="default"
-		module="scalastudy$sources_2.12"
+		module="scalastudy_2.10"
 		revision="1.0"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170413165726"/>
+		date="20170413165544"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
