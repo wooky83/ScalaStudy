@@ -5,9 +5,9 @@ import scala.annotation.tailrec
   */
 class FP1 {
 
-  def factorial(i : BigInt) : BigInt = {
+  def factorial(i: BigInt) : BigInt = {
     @tailrec
-    def fact(i:BigInt, accumulator : BigInt) : BigInt = {
+    def fact(i: BigInt, accumulator: BigInt) : BigInt = {
       if (i <= 1) accumulator
       else fact(i-1, i*accumulator)
       }
