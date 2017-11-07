@@ -13,6 +13,7 @@ object BubbleSort {
 
     var mutableList = ListBuffer[Int]()
     var tmpList = list
+
     for (i <- 0 until list.length) {
       val result = bubble(tmpList.head, tmpList.tail)
       mutableList.insert(0, result.last)
