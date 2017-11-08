@@ -3,8 +3,6 @@
 //aver = O(nlogn) worst = O(n^2)
 object MergeSort {
 
-
-
   def mergeSort(list: List[Int]): List[Int] = {
 
     def merge(left: List[Int], right: List[Int]): List[Int] = {
